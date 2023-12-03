@@ -1,0 +1,53 @@
+.navbar-toggler {
+  width: 47px;
+  height: 34px;
+  background-color: #f8f9fa;
+  border: none;
+}
+.navbar-toggler .line {
+  width: 100%;
+  float: left;
+  height: 2px;
+  background-color: #0d6efd;
+  margin-bottom: 5px;
+}
+
+/* Declare heights because of positioning of img element */
+.card-item {
+  height: 15rem;
+}
+
+.card-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 15rem;
+}
+
+.divider {
+  border-bottom: 2px solid #0d6efd;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
+
+.text-blue {
+  color: #0d6efd;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
