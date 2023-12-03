@@ -1,0 +1,22 @@
+{
+  "name": "stadium-albuns",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrepcarraro/stadium-albums.git"
+  },
+  "author": "André Carraro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrepcarraro/stadium-albums/issues"
+  },
+  "homepage": "https://github.com/andrepcarraro/stadium-albums#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
