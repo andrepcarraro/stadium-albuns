@@ -32,7 +32,9 @@ Windows, Linux, macOS:
 Para usar <stadium-albuns>, siga estas etapas:
 
 ```
-<exemplo_de_uso>
+<live-server>
+<json-server --watch data.json --port 3000>
+<Acesse o seu liver server>
 ```
 
 ## 📫 Contribuindo para <stadium-albuns>

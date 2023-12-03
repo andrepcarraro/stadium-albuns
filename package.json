@@ -18,5 +18,8 @@
   "homepage": "https://github.com/andrepcarraro/stadium-albums#readme",
   "devDependencies": {
     "live-server": "^1.2.2"
+  },
+  "dependencies": {
+    "json-server": "0.17.4"
   }
 }

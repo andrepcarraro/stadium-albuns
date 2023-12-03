@@ -15,6 +15,12 @@
   flex-direction: column;
 }
 
+.zoomed {
+  transform: scale(1.5);
+  /* Adjust the scale factor as needed */
+  transition: transform 0.3s ease-in-out;
+}
+
 .container-item {
   display: flex;
   flex-direction: column;

@@ -18,6 +18,7 @@
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
     integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
     crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 
   <!-- MapBox -->
   <script src='https://api.mapbox.com/mapbox-gl-js/v3.0.0/mapbox-gl.js'></script>
@@ -31,7 +32,15 @@
   <script src="./jquery-3.7.1.min.js"></script>
 
   <!-- Custom scripts -->
-  <script src='./index.js'></script>
+  <script type="module" src='./index.js'></script>
+  <script>
+    function zoomImage(id) {
+      const image = document.getElementById(id);
+      image.classList.toggle('zoomed');
+    }
+  </script>
+  <link rel="stylesheet" href="assets/css/detalhes.css" />
+
 </head>
 
 <body style="padding: 0">
