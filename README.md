@@ -34,7 +34,7 @@ Para usar <stadium-albuns>, siga estas etapas:
 ```
 <live-server>
 <json-server --watch data.json --port 3000>
-<Acesse o seu liver server>
+<Acesse o seu live server>
 ```
 
 ## 📫 Contribuindo para <stadium-albuns>
