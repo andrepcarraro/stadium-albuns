@@ -194,9 +194,11 @@ document.addEventListener('DOMContentLoaded', function () {
         switch (route) {
             case '':
                 renderHomePage();
+                window.scrollTo(0, 0);
                 break;
             case 'details':
-                renderDetailsPage(params.id)
+                renderDetailsPage(params.id);
+                window.scrollTo(0, 0);
                 break;
             default:
                 contentContainer.innerHTML = '<h2>Page Not Found</h2>';
