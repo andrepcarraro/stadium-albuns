@@ -6,19 +6,9 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/andrepcarraro/stadium-albuns?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/andrepcarraro/stadium-albuns?style=for-the-badge)
 
-<img src="imagem.png" alt="Exemplo imagem">
+<img src="assets/readme-image.jpeg" alt="Exemplo imagem">
 
 > Trabalho prático desenvolvido para a disciplina Desenvolvimento de Interfaces Web.
-
-### Ajustes e melhorias
-
-O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
-
-- [x] Tarefa 1
-- [x] Tarefa 2
-- [x] Tarefa 3
-- [ ] Tarefa 4
-- [ ] Tarefa 5
 
 ## 💻 Pré-requisitos
 
